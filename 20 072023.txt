@@ -1,0 +1,43 @@
+***print the different  single values ***
+
+n=[1,2,2,3,3,4,5,9]
+
+num=[] 
+
+for i in n:
+ 
+   if i not in num:
+
+        num.append(i)
+
+    else:
+       
+        num.remove(i)
+
+print(*num)  
+
+
+**print the single value **
+
+n=[1,2,2,3,3,4,5,9,9,5,4]
+
+num=[] 
+
+for i in n:
+ 
+   if i not in num:
+
+        num.append(i)
+
+    else:
+       
+        num.remove(i)
+
+print(num[0])  
+
+
+
+*** remove the duplicate values***
+s=[2,3,4,5,5,4,3,8,6]
+
+print(set(s))            
